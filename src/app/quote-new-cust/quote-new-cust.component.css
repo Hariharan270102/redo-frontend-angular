@@ -1,0 +1,151 @@
+/* quote-new-cust.component.css */
+.custom-select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  .custom-select option {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 0;
+  }
+  
+  .custom-select option:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .custom-select::placeholder {
+    color: #000;
+  }
+
+
+  .home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  /* create-quote.component.css */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+.quote-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .address-input {
+    margin-bottom: 10px;
+  }
+  
+  .add-btn,
+  .remove-btn,
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .add-btn {
+    background-color: #4caf50;
+  }
+  
+  .add-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .remove-btn {
+    background-color: #ff0000;
+  }
+  
+  .remove-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  .submit-btn {
+    background-color: #3498db;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .submit-btn[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+  }
+  

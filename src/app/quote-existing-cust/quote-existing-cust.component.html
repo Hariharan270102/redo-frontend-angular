@@ -1,0 +1,18 @@
+<!-- <p>quote-existing-cust works!</p> -->
+ <!-- create-quote.component.html -->
+ <div class="home-container">
+    <h1>Quote for Existing customer</h1>
+ </div>
+ <form [formGroup]="quoteForm" (ngSubmit)="onSubmit()">
+    <label for="customerName">Customer Name:</label>
+    <input id="customerName" formControlName="customerName" />
+  
+    <label for="quoteId">Quote ID:</label>
+    <input id="quoteId" formControlName="quoteId" />
+  
+    <label for="quoteOwner">Quote Owner:</label>
+    <input id="quoteOwner" formControlName="quoteOwner" />
+  
+    <button type="submit">Submit</button>
+  </form>
+  

@@ -1,0 +1,24 @@
+<!-- <p>quote-new-cust works!</p> -->
+
+<div class="home-container">
+    <h1>
+        New Customer
+    </h1>
+</div>
+
+<form [formGroup]="quoteNewCustForm" (ngSubmit)="onSubmit()" class="quote-form">
+    <label for="customerName">Customer Name:</label>
+    <input id="customerName" formControlName="customerName" class="form-control" />
+  
+    <div *ngFor="let address of addresses; let i = index" class="address-input">
+      <label for="address{{ i }}">Address {{ i + 1 }}:</label>
+      <input id="address{{ i }}" [formControl]="address" class="form-control" />
+      <button type="button" (click)="removeAddress(i)" *ngIf="addresses.length > 1" class="remove-btn">Remove Address</button>
+    </div>
+  
+    <button type="button" (click)="addAddress()" class="add-btn">Add Address</button>
+  
+    <button type="submit" [disabled]="isSubmitDisabled()" class="submit-btn">Submit</button>
+  </form>
+  
+  
